@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+mqtt:
+  username: admin
+  password: password
+  host-url: tcp://127.0.0.1:1883
+  clientID: mqttProducer
+  default-topic: records
+  timeout: 10
+  keepalive: 20
